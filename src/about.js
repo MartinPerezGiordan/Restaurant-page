@@ -1,4 +1,4 @@
-import restaurant from './restaurant.jpg';
+import restaurant from './restaurant.jpeg';
 
 
 const about = function(){
@@ -37,6 +37,7 @@ const about = function(){
     story.appendChild(textContainer);
     textContainer.appendChild(storyTitle);
     textContainer.appendChild(storyText);
+    
     story.appendChild(storyImage)
 
 

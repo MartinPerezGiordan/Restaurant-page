@@ -1,4 +1,4 @@
-import foodImg from './food.jpg';
+import foodImg from './food.jpeg';
 
 
 const loadPage = function(){

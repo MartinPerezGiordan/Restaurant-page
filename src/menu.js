@@ -1,8 +1,8 @@
-import margherita from './menu-images/margherita.jpg';
-import chicken from './menu-images/chicken-alfredo.jpg';
-import burger from './menu-images/burger.jpg';
-import salad from './menu-images/caesar-salad.jpg';
-import brownie from './menu-images/brownie.jpg';
+import margherita from './menu-images/margherita.jpeg';
+import chicken from './menu-images/chicken-alfredo.jpeg';
+import burger from './menu-images/burger.jpeg';
+import salad from './menu-images/caesar-salad.jpeg';
+import brownie from './menu-images/brownie.jpeg';
 
 const menuItems = [
     {
