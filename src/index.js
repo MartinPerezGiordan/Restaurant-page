@@ -1,6 +1,8 @@
 import './style.css';
 import {loadPage as mainPage} from './page-load'
 import { header } from './header';
+import { menu } from './menu';
+
 
 header();
 const menuBtn = document.querySelector('#menu')
@@ -13,12 +15,18 @@ function removeContent(){
 }
 
 
+aboutBtn.addEventListener('click', function() {
+    removeContent();
+    about();
+  });
+  
 
   menuBtn.addEventListener('click', function() {
     removeContent();
     menu();
   });
-  
+
+
 
 mainPage();
 
