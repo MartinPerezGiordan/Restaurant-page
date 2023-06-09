@@ -14,7 +14,6 @@ html, body {
     min-height: 100%;
 }
   
-
 button {
     background-color: transparent;
     border: 2px solid white;
@@ -54,6 +53,7 @@ color: black;
 .logo{
     font-size: 40px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .left-header ul{
@@ -109,20 +109,54 @@ color: black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .menu-item img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
+.menu-item img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+margin-bottom: 10px;
+}
 
-  .menu-item .description {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
+.menu-item .description {
+font-size: 14px;
+margin-bottom: 10px;
+}
 
-  .menu-item .price {
-    font-size: 16px;
+.menu-item .price {
+font-size: 16px;
+font-weight: bold;
+}
+
+
+.story {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 50px;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .story-title {
+    font-size: 18px;
     font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .story-text {
+    max-width: 40ch;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .story-image {
+    max-width: 900px;
+    height: auto;
+    margin-left: 20px;
   }
